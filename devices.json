@@ -4,11 +4,13 @@
         "ip": "172.18.0.0",
         "localizacion": "None",
         "responsable": {
+            "id": 1,
             "nombre": "admin",
             "telefono": 656445552,
             "rol": "Administracion de sistemas"
         },
         "analisis": {
+            "id": 1,
             "puertos_abiertos": ["80/TCP", "443/TCP", "3306/TCP", "40000/UDP"],
             "servicios": 3,
             "servicios_inseguros": 0,
@@ -20,11 +22,13 @@
         "ip": "172.17.0.0",
         "localizacion": "Barcelona",
         "responsable": {
+            "id": 2,
             "nombre": "Paco Garcia",
             "telefono": 640220120,
             "rol": "Direccion"
         },
         "analisis": {
+            "id": 2,
             "puertos_abiertos": "None",
             "servicios": 0,
             "servicios_inseguros": 0,
@@ -36,11 +40,13 @@
         "ip": "172.19.0.0",
         "localizacion": "Madrid",
         "responsable": {
+            "id": 3,
             "nombre": "Luis Sanchez",
             "telefono": "None",
             "rol": "Desarrollador"
         },
         "analisis": {
+            "id": 3,
             "puertos_abiertos": [
                 "1194/UDP",
                 "8080/TCP",
@@ -57,11 +63,13 @@
         "ip": "172.1.0.0",
         "localizacion": "None",
         "responsable": {
+            "id": 4,
             "nombre": "admin",
             "telefono": 656445552,
             "rol": "Administracion de sistemas"
         },
         "analisis": {
+            "id": 4,
             "puertos_abiertos": ["443/UDP", "80/TCP"],
             "servicios": 1,
             "servicios_inseguros": 0,
@@ -73,11 +81,13 @@
         "ip": "172.1.0.1",
         "localizacion": "Madrid",
         "responsable": {
+            "id": 5,
             "nombre": "admiin",
             "telefono": "None",
             "rol": "None"
         },
         "analisis": {
+            "id": 5,
             "puertos_abiertos": ["80/TCP", "67/UDP", "68/UDP"],
             "servicios": 2,
             "servicios_inseguros": 2,
@@ -89,11 +99,13 @@
         "ip": "172.18.0.1",
         "localizacion": "None",
         "responsable": {
+            "id": 6,
             "nombre": "admin",
             "telefono": 656445552,
             "rol": "Administracion de sistemas"
         },
         "analisis": {
+            "id": 6,
             "puertos_abiertos": ["8080/TCP", "3306/TCP", "3306/UDP"],
             "servicios": 2,
             "servicios_inseguros": 0,
@@ -105,11 +117,13 @@
         "ip": "172.18.0.2",
         "localizacion": "None",
         "responsable": {
+            "id": 7,
             "nombre": "admin",
             "telefono": 656445552,
             "rol": "Administracion de sistemas"
         },
         "analisis": {
+            "id": 7,
             "puertos_abiertos": ["80/TCP", "443/TCP", "9200/TCP", "9300/TCP", "5601/TCP"],
             "servicios": 3,
             "servicios_inseguros": 2,
