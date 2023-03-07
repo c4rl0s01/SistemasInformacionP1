@@ -12,6 +12,8 @@ def rellenar():
     c.commit() #commit changes
     c.close()  #close connection to db
 
+    data = pd.read_json('devices.json')
+    data.to_sql('Devices', c, if_exists='replace', index=False) #add data to db
 
 
 def show_db():
